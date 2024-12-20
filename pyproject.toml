@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-imgmake"
+description = "This extension integrates ebsynth_utility into comfyui, and I've written some of my own nodes for secondary use."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["transformers", "transparent_background"]
+
+[project.urls]
+Repository = "https://github.com/dafeng012/comfyui-imgmake"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-imgmake"
+Icon = ""
